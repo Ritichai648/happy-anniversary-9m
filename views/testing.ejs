@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/testing.css">
+    <title>ใช่แฟนไหมที่กดเข้ามา</title>
+</head>
+<body>
+    <div class="card">
+        <div class="text">
+            <h1>ถ้าเป็นแฟนเค้าจริงต้องรู้ ?</h1>
+            <h2>คำถามทั้งหมด <span style="color: red;">7 ข้อ</span> ต้องตอบให้ถูกทุกข้อนะ</h2>
+        </div>
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <label for="q_1">1. เค้าชอบสีอะไร ?</label>
+                <input type="text" name="q1" placeholder="ใส่ชื่อสีที่เค้าชอบมาหนึ่งสี " required>
+                <label for="q_2">2. เค้าชอบสัตว์อะไรระหว่าง หมา กับ แมว ?</label>
+                <input type="text" name="q2" placeholder="ใส่คำตอบว่าเค้าชอบหมาหรือแมว " required>
+                <label for="q_3">3. เค้าชอบกินอาหารอะไร ?</label>
+                <input type="text" name="q3" placeholder="ใส่คำตอบว่าเค้าชอบกินอาหารอะไร " required>
+                <label for="q_4">4. เค้าเกิดวันที่เท่าไหร่ เดือนอะไร ค.ศ.อะไร ?</label>
+                <input type="text" name="q4" placeholder="ใส่คำตอบเป็น 00/00/00" required>
+                <label for="q_5">5. เค้าชอบเรียนวิชาอะไรที่สุด ?</label>
+                <input type="text" name="q5" placeholder="ใส่ชื่อวิชาที่เค้าชอบที่สุด 1 วิชา " required>
+                <label for="q_6">6. เค้าไม่ชอบเรียนวิชาอะไรที่สุด ?</label>
+                <input type="text" name="q6" placeholder="ใส่ชื่อวิชาที่เค้ากไม่ชอบที่สุด 1 วิชา " required>
+                <label for="q_7">7. เวลาว่างเค้าชอบทำอะไรที่โรงเรียน ?</label>
+                <input type="text" name="q7" placeholder="บอกสิ่งที่เค้าชอบทำเวลาว่างที่โรงเรียน " required>
+                <div class="button-style">
+                    <button class="btts" type="submit">ส่งคำตอบ</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    background: #6c63ff;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Prompt", sans-serif;
+    color: #fff;
+    /* Improved text contrast */
+}
+
+.card {
+    background: #fdfdfd;
+    border-radius: 4px;
+    height: 85vh;
+    width: 80vw;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    /* Adjusted box shadow for depth */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.text {
+    padding: 1em;
+    color: #333;
+    /* Adjusted text color */
+}
+
+input[type=text] {
+    border: 2px solid #6c63ff;
+    border-radius: 4px;
+    width: 400px;
+    height: 50px;
+}
+
+input::placeholder {
+    padding-left: 10px;
+    color: #333;
+    font-family: "Prompt", sans-serif;
+    font-size: 11px;
+}
+
+.btts {
+    font-size: 20px;
+    background-color: #04AA6D;
+    border: transparent;
+    border-radius: 25px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
